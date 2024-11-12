@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top II Bottom Cleanic - Contact & Request Form</title>
+  <link rel="stylesheet" href="/COHORT/code/SBAs/2024-SBA-HTML-CSS-Fundamentals/styles/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <nav>
+    <a href="/COHORT/code/SBAs/2024-SBA-HTML-CSS-Fundamentals/index.html">Home</a>
+    <a href="/COHORT/code/SBAs/2024-SBA-HTML-CSS-Fundamentals/pages/services.html">Services & Products</a>
+    <a href="/COHORT/code/SBAs/2024-SBA-HTML-CSS-Fundamentals/pages/contact.html">Contact & Request Form</a>
+  </nav>
+
+  <main>
+    <section class="request-form">
+      <h2>Request Our Services</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="service">Choose a Service:</label>
+        <select id="service" name="service">
+          <option value="house-cleaning">House Cleaning</option>
+          <option value="office-cleaning">Office Cleaning</option>
+          <option value="deep-cleaning">Deep Cleaning</option>
+        </select>
+
+        <label>
+          <input type="checkbox" name="extra" value="window-cleaning"> Window Cleaning
+        </label>
+        <label>
+          <input type="checkbox" name="extra" value="floor-polishing"> Floor Polishing
+        </label>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Top II Bottom Cleanic. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

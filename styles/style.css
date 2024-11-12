@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 1rem;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request-form,
+.login-form {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  width: 300px;
+}
+
+/* Centered Image Code */
+img {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
