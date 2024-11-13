@@ -19,12 +19,16 @@
     <a href="/COHORT/code/SBAs/2024-SBA-HTML-CSS-Fundamentals/pages/contact.html">Contact & Request Form</a>
   </nav>
 
-  <main>
+  
+  <main class = "main-container" style = "background-color: linen">
     <section class="request-form">
       <h2>Request Our Services</h2>
-      <form>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" name="name" required>
+      <form class = "request">
+        <label for="name">Full Name:
+          <input type="text" id="name" name="name" required>
+
+        </label>
+        
 
         <label for="service">Choose a Service:</label>
         <select id="service" name="service">
@@ -45,9 +49,9 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2024 Top II Bottom Cleanic. All rights reserved.</p>
-  </footer>
+<footer style="position: fixed; left:0; bottom:0;">
+  <p style="position: relative; left:0; bottom:0;">&copy; 2024 Top II Bottom Cleanic. All rights reserved.</p>
+</footer>
 </body>
 
 </html>
